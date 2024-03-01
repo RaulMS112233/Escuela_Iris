@@ -39,8 +39,22 @@ header{
     color: black;
     margin-top: 35px;
     font-size: 1.7em;
+    position: relative;
 }
-
+.barraNavegacion a::after{
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    transition: .5s;
+    will-change: width;
+}
+.barraNavegacion a:hover::after{
+    width: 100%;
+    right: 0;
+}
 
 /* - - - NAV - - - */
 
