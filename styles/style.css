@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+body{
+    font-family: url('./fuente/Sephir-Regular.otf');
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    width: 30%;
+}
+body{
+    width: 90%;
+    margin-top: 30px;
+}
+header{
+    height: 100px;
+}
+.logo{
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+.barraNavegacion{
+    width: 70%;
+    height: 100%;
+    float: right;
+    display: flex;
+}
+.barraNavegacion a{
+    text-decoration: none;
+    color: black;
+    margin-top: 35px;
+    font-size: 1.7em;
+}
+nav{
+    height: 500px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+nav i{
+    font-size: 3em;
+}
+nav img{
+    width: 50%;
+}
+main{
+    margin-top: 10px;
+}
+.escuela{
+    display: flex;
+    height: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.escuela div{
+    width: 50%;
+    height: 100%;
+    font-size: 1.5em;
+}
+.escuela div p{
+    margin-top: 30%;
+}
+.escuela img{
+    width: 50%;
+    height: 100%;
+}
+.cursos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 500px;
+}
+.cursos img{
+    width: 350px;
+    height: 350px;
+}
+.cursos a:hover{
+    transform: scale(110%);
+    transition: .5s;
+    box-shadow: 10px 10px 50px black;
+}
+.cursos a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+}
+footer div{
+    width: 50%;
+    height: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.mapa{
+    width: 40%;
+    height: 80%;
+}
+.contacto{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.contacto a{
+    width: 70%;
+}
