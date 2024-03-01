@@ -4,7 +4,7 @@
     margin: auto;
 }
 body{
-    font-family: url('./fuente/Sephir-Regular.otf');
+    font-family: 'MiFuente' ;  
 }
 img{
     width: 100%;
@@ -17,6 +17,9 @@ body{
     width: 90%;
     margin-top: 30px;
 }
+
+/* - - - HEADER - - - */
+
 header{
     height: 100px;
 }
@@ -37,6 +40,10 @@ header{
     margin-top: 35px;
     font-size: 1.7em;
 }
+
+
+/* - - - NAV - - - */
+
 nav{
     height: 500px;
     display: flex;
@@ -45,10 +52,14 @@ nav{
 }
 nav i{
     font-size: 3em;
+    color: #c2c2c2;
 }
 nav img{
     width: 50%;
 }
+
+/* - - - MAIN - - - */
+
 main{
     margin-top: 10px;
 }
@@ -80,8 +91,8 @@ main{
     width: 350px;
     height: 350px;
 }
-.cursos a:hover{
-    transform: scale(110%);
+.cursos img:hover{
+    transform: scale(1.15);
     transition: .5s;
     box-shadow: 10px 10px 50px black;
 }
@@ -89,6 +100,9 @@ main{
     text-decoration: none;
     color: black;
 }
+
+/* - - - FOOTER - - - */
+
 footer{
     height: 400px;
     margin-top: 10px;
@@ -114,4 +128,5 @@ footer a{
 }
 .contacto a{
     width: 70%;
+    
 }
