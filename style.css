@@ -105,6 +105,7 @@ main{
     margin-bottom: 30px;
     display: flex;
     height: 500px;
+    font-size: 1.4em;
 }
 .cursos img{
     width: 350px;
@@ -113,11 +114,14 @@ main{
 .cursos img:hover{
     transform: scale(1.15);
     transition: .5s;
-    box-shadow: 10px 10px 50px black;
+    box-shadow: 5px 5px 20px black;
 }
 .cursos a{
     text-decoration: none;
     color: black;
+}
+.cursos figcaption{
+    margin-top: 30px;
 }
 
 /* - - - FOOTER - - - */
